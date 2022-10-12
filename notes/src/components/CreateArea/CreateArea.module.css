@@ -1,0 +1,76 @@
+@import url("https://fonts.cdnfonts.com/css/knights-quest?styles=41922");
+
+.section {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+form {
+  position: relative;
+  max-width: 600px;
+  margin: 32px auto 50px auto;
+  background: #fff;
+  padding: 7px;
+  border-radius: 7px;
+  box-shadow: 0 1px 10px rgb(108, 107, 106);
+}
+
+form input {
+  font-family: "Knights Quest", sans-serif;
+  letter-spacing: 0.1rem;
+  width: 100%;
+  border: none;
+  padding: 4px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 2rem;
+  resize: none;
+}
+
+form textarea {
+  font-family: "Knights Quest", sans-serif;
+  letter-spacing: 0.1rem;
+  width: 100%;
+  border: none;
+  padding: 4px 10px;
+
+  outline: none;
+  font-size: 1.5rem;
+  resize: none;
+}
+
+form button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 18px;
+  bottom: -18px;
+  background: #fde6a5;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  box-shadow: 0 1px 10px rgb(108, 107, 106);
+
+  width: 36px;
+  height: 36px;
+  transition-duration: 0.5s;
+
+  font-family: inherit;
+  font-size: inherit;
+  color: #c6a13a;
+
+  cursor: pointer;
+}
+
+form button:hover,
+form button:focus {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #785d10;
+
+  transform: rotate(90deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}

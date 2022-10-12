@@ -1,0 +1,51 @@
+.note {
+    background: #fff;
+    width: 240px;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 0 3px 5px rgb(175, 175, 175);
+    padding: 10px;
+    margin: 16px;
+    float: left;
+
+    flex-wrap: wrap;
+}
+
+.note h1 {
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 6px;
+
+}
+
+.note p {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+}
+
+.note button {
+    position: relative;
+    float: right;
+    border: none;
+    background: none;
+
+
+    font-family: inherit;
+    font-size: 18px;
+    color: rgb(182, 160, 48);
+
+    cursor: pointer;
+
+    transition-duration: 0.5s;
+}
+
+.note button:hover,
+.note button:focus {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
